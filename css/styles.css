@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#contenido {
+  margin-top: 4rem;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+input.button-primary {
+  font-size: 1.4rem;
+}
+
+label {
+  padding: 1.7rem 0;
+}
+
+.borrar-nota,
+.borrar-nota:hover {
+  float: right;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+.error {
+  background-color: rgb(197, 7, 7);
+  text-align: center;
+  padding: .8rem;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  border-radius: .5rem;
+  margin-bottom: 3.5rem;
+}
+
+.margin-left {
+  margin-left: 1.5rem;
+}
